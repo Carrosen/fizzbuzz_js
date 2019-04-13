@@ -19,10 +19,6 @@ describe('Fizz Buzz', () => {
          expect(fizzBuzz.check(15)).to.eql('FizzBuzz')
     })
 
-
-
-
-    
 })
 
 
