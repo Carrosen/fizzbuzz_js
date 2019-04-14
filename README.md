@@ -7,7 +7,7 @@ eval( fizzBuzz + `\nexports.FizzBuzz = FizzBuzz;`)
 ```
 
 ### Answer:
-Already built in methods, that we can use.
+Loading already built in methods.
 
 ---
 
@@ -15,7 +15,7 @@ Already built in methods, that we can use.
 #### In your README to the best of your knowledge please explain why we are placing the let fizzBuzz = new FizzBuzz outside the it block?
 
 ### Answer:
-So you don't need to write it in every it block.
+So you don't need to write it in every it block. Now it is accessible for every it block. 
 
 ---
 
@@ -32,7 +32,9 @@ So you don't need to write it in every it block.
 #### In your README to the best of your knowledge please explain why we are moving (number % 5 === 0) to the top?
 
 ### Answer:
-You start at the top because you would want to get 'Fizz Buzz' instead of 'Fizz' or 'Buzz' right, it's kind of similar to the bills in the ATM_challenge, you would like to get the 20 bills first instead of 5 so you put it in the order [20, 10, 5]. It's the same principal.
+Answered the question and then I noticed 5 instead of 15? typo? or am I wrong here
+
+You start at the top because you would want to get 'Fizzbuzz' before 'Buzz' or 'Fizz' right, it's kind of similar to the bills in the ATM_challenge, you would like to get the 20 bills first so you put it in the order [20, 10, 5]. It's the same principle.
 
 ---
 
@@ -41,7 +43,7 @@ You start at the top because you would want to get 'Fizz Buzz' instead of 'Fizz'
 #### In your README to the best of your knowledge please explain the difference between feature and unit test.
 
 ### Answer:
-Unit tests make sure that all the units of code functions in isolation and with feature testing you are testing the application as a user would. 
+Unit tests will test small parts of code and with feature testing you are testing the application as a user would in bigger portions.
 
 ---
 
@@ -65,7 +67,7 @@ describe('User can input a value and get FizzBuzz results', () => {
 })
 ```
 ### Answer:
-Your testing the page, so you want it do find it, visit it, reload the page and then close it. This need to happen to test the functions on the page.
+Your testing the page so you want it to visit it, reload the page and then close it. This need to happen to test the functions on the page.
 
 ---
 
@@ -97,7 +99,7 @@ What you expect should happen when you write in something specific like "5", the
 ```
 
 ### Answer:
-
+Im not really sure but this is what we put in the html and we are calling on the function we have in our fizz-buzz.js file, we are waiting for a user to lick the button, so when it gets clicked we will display the answer which depends on what the user put in(value) so we have four scenarios in this case, it will display fizz, buzz, fizzbuzz or 'Try again' depending of what the input was.
 
 ---
 
@@ -105,7 +107,7 @@ What you expect should happen when you write in something specific like "5", the
 #### In your README to the best of your knowledge please explain what a CDN (Content Delivery Network) is?
 
 ### Answer:
-
+CDN means a group of servers working together to provide fast delivery of Internet content. It is designed to load your website, quickly, by having servers closer to the costumer and the website will load faster.
 
 ---
 
