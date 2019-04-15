@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+    <title>FIZZ BUZZ</title>
+</head>
+<style>
+body {
+    background-color: #F6D8CE;
+}
+</style>
+
+    <h1 class="font-sans text-lg text-grey-darker text-center mb-3 mt-3 ">FIZZBUZZ</h1>
+    <!-- <h2>G/style>AME RULES:</h2> -->
+
+
+    <div style="text-align:center">
+        <input class="shadow appearance-none border border-grey-darker rounded w-1/3 py-2 px-3 text-grey-darker mb-3 leading-tight focus:outline-none focus:shadow-outline" id="value" type="text" placeholder="Input number here"><br>
+
+        <input class="bg-transparent hover:bg-grey-darker text-grey-darker font-semibold hover:text-white py-2 px-4 border border-grey-darker hover:border-transparent rounded mb-4" type="submit" value="Check" id="button">
+        </div>
+    </div>
+        <div class="text-5xl" id="display_answer" style="text-align: center"></div>
+
+        <script src="./src/js/fizz-buzz.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                let button = document.getElementById('button')
+                let displayDiv = document.getElementById('display_answer')
+                button.addEventListener('click', () => {
+                    let value = document.getElementById('value').value
+                    let fizzBuzz = new FizzBuzz
+                    let result = fizzBuzz.check(value)
+                    displayDiv.innerHTML = result;
+                    
+                })
+            })
+        </script>
+
+
+</body>
+</html>
