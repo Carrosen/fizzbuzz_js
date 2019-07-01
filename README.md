@@ -1,5 +1,4 @@
-
- # Challenge: Fizzbuzz
+# Fizzbuzz
 
  ### This was a weekend challenge, 13-14 april
 
