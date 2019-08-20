@@ -21,10 +21,10 @@
 
  ---
 
- ## Built with
- * Javscript
- * HTML
- * Javascript
+## Built with
+* HTML
+* CSS
+* JavaScript
 
  ## Tested with
  * [npm](https://www.npmjs.com/)
